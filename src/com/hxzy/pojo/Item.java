@@ -23,6 +23,7 @@ public class Item  implements Serializable{
 		return id;
 	}
 	public void setId(int id) {
+		System.out.println("ddd");
 		this.id = id;
 	}
 	public String getName() {
