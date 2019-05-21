@@ -19,6 +19,7 @@ public class Item  implements Serializable{
 	private String name6;
 
 	public int getId() {
+		System.out.println("ddd");
 		return id;
 	}
 	public void setId(int id) {
