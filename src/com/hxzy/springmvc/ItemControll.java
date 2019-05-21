@@ -16,9 +16,10 @@ public class ItemControll {
 	@RequestMapping("list")
 	public ModelAndView getList() {
 		ModelAndView mv=	new ModelAndView();
-		List<Item> items=Arrays.asList(new Item(1,"冰箱",1999,new Date(),"冰箱很好"),new Item(1,"洗衣机",1999,new Date(),"冰箱很好"));
+		List<Item> items=Arrays.asList(new Item(1,"鍐扮",1999,new Date(),"鍐扮寰堝ソ"),new Item(1,"娲楄。鏈�",1999,new Date(),"鍐扮寰堝ソ"));
 		mv.addObject("itemlist",items);
 		mv.setViewName("item");
+		System.out.println("tom");
 		return mv;
 	}
 
