@@ -15,7 +15,9 @@ public class Item  implements Serializable{
 	private String name3;
 
 	private String name4;
+
 	private String name6;
+
 	public int getId() {
 		return id;
 	}
