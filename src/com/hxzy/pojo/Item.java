@@ -24,6 +24,7 @@ public class Item  implements Serializable{
 	}
 	public void setId(int id) {
 		System.out.println("ddd");
+		System.out.println("tt");
 		this.id = id;
 	}
 	public String getName() {
