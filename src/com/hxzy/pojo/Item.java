@@ -11,7 +11,7 @@ public class Item  implements Serializable{
 	private Date createtime;
 	private String detail;
 	private String name2;
-	
+	private String name3;
 	public int getId() {
 		return id;
 	}
