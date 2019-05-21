@@ -13,6 +13,7 @@ public class HelloControll {
 		System.out.println("hello");
 		System.out.println("tom");
 		System.out.println("mike");
+		System.out.println("mike456");
 		//设置模型数据
 		mv.addObject("msg","hello springmvc");
 		//设置视图
